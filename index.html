@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ip address tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Ip Address Tracker</h1>
+        <form action="">
+            <input id="search" type="text" placeholder="Search.." name="search">
+            <button id="submit" type="submit"><img src="/images/icon-arrow.svg" alt=""></button>
+          </form>
+    </header>
+    <div class="results">
+        <div><h2>IP ADDRESS</h2><p id="ip-address">Lorem ipsum dolor sit.</p></div>
+        <div><h2>LOCATION</h2><p id="location">Lorem ipsum dolor sit.</p></div>
+        <div><h2>TIMEZONE</h2><p id="timezone">Lorem ipsum dolor sit.</p></div>
+        <div><h2>ISP</h2><p id="isp">Lorem ipsum dolor sit.</p></div>
+    </div>
+    <div class="map-container">
+        <div id="mapid"></div>
+    </div>
+    
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
